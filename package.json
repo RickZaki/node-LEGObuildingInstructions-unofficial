@@ -1,0 +1,45 @@
+{
+    "author": "Rick Zaki <GitHub@RickZaki.com> (http://RickZaki.com)",
+    "bugs": "https://github.com/RickZaki/node-LEGObuildingInstructions-unofficial/issues",
+    "engines": {
+        "node": ">= 0.10.0"
+    },
+    "dependencies": {
+        "cheerio": "^0.17.0"
+    },
+    "description": "Fetches instructions and details about LEGO sets from LEGO.com's building instructions page.",
+    "devDependencies": {
+        "grunt": "~0.4.2",
+        "grunt-contrib-jshint": "~0.7.2",
+        "grunt-contrib-watch": "~0.5.3",
+        "grunt-contrib-nodeunit": "~0.2.2",
+        "grunt-jsdoc": "^0.5.6",
+        "grunt-contrib-clean": "^0.5.0",
+        "jsonschema": "^1.0.0",
+        "json-mask": "^0.3.1"
+    },
+    "directories": {
+        "test": "test"
+    },
+    "keywords": [
+        "LEGO",
+        "building instructions",
+        "instructions",
+        "proxy",
+        "unofficial"
+    ],
+    "license": {
+        "type": "CC-BY-SA-4.0",
+        "url": "http://creativecommons.org/licenses/by-sa/4.0/legalcode"
+    },
+    "main": "LEGObuildingInstructions.js",
+    "name": "LEGObuildingInstructions",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/RickZaki/node-LEGObuildingInstructions-unofficial.git"
+    },
+    "scripts": {
+        "test": "grunt nodeunit"
+    },
+    "version": "0.0.1"
+}

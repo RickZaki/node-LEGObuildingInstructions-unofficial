@@ -1,0 +1,35 @@
+{
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "ImageLocation": {
+                "type": "string"
+            },
+            "FrontpageInfo": {
+                "type": "string"
+            },
+            "ProductImageInfo": {
+                "type": "string"
+            },
+            "ProductName": {
+                "type": "string"
+            },
+            "ProductId": {
+                "type": "string"
+            },
+            "PdfLocation": {
+                "type": "string"
+            },
+            "DownloadSize": {
+                "type": "string"
+            },
+            "Description": {
+                "type": "string"
+            },
+            "IsAlternative": {
+                "type": "boolean"
+            }
+        }
+    }
+}
